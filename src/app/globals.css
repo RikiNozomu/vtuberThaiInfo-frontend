@@ -1,0 +1,65 @@
+@import '@mantine/core/styles.css';
+@import '@mantine/spotlight/styles.css';
+@import '@mantine/carousel/styles.css';
+@import '@mantine/notifications/styles.css';
+@import '@mantine/tiptap/styles.css';
+@import '@fortawesome/fontawesome-svg-core/styles.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Line Seed Sans TH */
+@font-face {
+  font-family: "LINE Seed Sans TH";
+  src: url("../../assets/fonts/line-seed-th/LINESeedSansTH_W_Th.woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LINE Seed Sans TH";
+  src: url("../../assets/fonts/line-seed-th/LINESeedSansTH_W_Rg.woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LINE Seed Sans TH";
+  src: url("../../assets/fonts/line-seed-th/LINESeedSansTH_W_Bd.woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LINE Seed Sans TH";
+  src: url("../../assets/fonts/line-seed-th/LINESeedSansTH_W_Eb.woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LINE Seed Sans TH";
+  src: url("../../assets/fonts/line-seed-th/LINESeedSansTH_W_He.woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+mark.mantine-Mark-root {
+  @apply bg-secondary text-white
+}
+
+ins.adsbygoogle > .show-unfilled {
+  display: flex !important;
+}
+
+ins.adsbygoogle[data-ad-status="filled"] > .show-unfilled {
+  display: none !important;
+}
+
+.text-title {
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #FFFFFF44;
+}
